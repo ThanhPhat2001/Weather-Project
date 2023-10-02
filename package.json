@@ -8,10 +8,10 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build"
   },
-  "homepage": "https://github.com/ThanhPhat2001/Weather-Project.git",
+  "homepage": "https://thanhphat2001.github.io/Weather-Project/",
   "dependencies": {
     "@types/react-router-dom": "^5.3.3",
     "axios": "^1.5.1",
